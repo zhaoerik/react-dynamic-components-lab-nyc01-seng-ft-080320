@@ -2,7 +2,7 @@
 import React from 'react';
 
 class Comment extends React.Component {
-    render (){
+    render() {
         return (
             <div className='comment'>{this.props.commentText}</div>
         )
